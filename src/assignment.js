@@ -14,7 +14,6 @@ const assignment = {};
  * @returns number the sum of the numbers.*/
 
 function sumOfNumbers(){
-  
 let arrayOfNumbers = [68, -68, 27, 94, 72, -25, -51, 32, 10, 64, -94, 4, 34, -86, 90, 81, 20,-56,-91,-50]
   let sum = 0;
   for(let i=0; i < arrayOfNumbers.length; i++){
@@ -35,12 +34,9 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 
 function countEvenNumbers() {
-
   let arrayOfNumbers = [17, 0, 67, 41, 49, 21, 1, 86, 76, 64, 54, 14, 93, 84, 14, 77, 35, 7, 29, 2]
-  
   let newArray = []
   for(let i = 0; i < arrayOfNumbers.length; i++){
-
     let even = arrayOfNumbers[i];
     if (even % 2 === 0){
       newArray.push(even)
