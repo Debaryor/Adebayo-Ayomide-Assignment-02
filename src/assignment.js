@@ -36,7 +36,7 @@ assignment.sumOfNumbers = sumOfNumbers;
 
 function countEvenNumbers() {
 
-  let arrayOfNumbers = [17, 0, 67, 41, 49, 21, 1, 86, 76, 2, 54, 14, 93, 84, 14, 77, 35, 7, 29, 64]
+  let arrayOfNumbers = [17, 0, 67, 41, 49, 21, 1, 86, 76, 64, 54, 14, 93, 84, 14, 77, 35, 7, 29, 2]
   
   let newArray = []
   for(let i = 0; i < arrayOfNumbers.length; i++){
