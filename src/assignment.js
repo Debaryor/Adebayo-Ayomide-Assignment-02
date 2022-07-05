@@ -19,7 +19,7 @@ let arrayOfNumbers = [68, -68, 27, 94, 72, -25, -51, 32, 10, 64, -94, 4, 34, -86
   for(let i=0; i < arrayOfNumbers.length; i++){
      sum += arrayOfNumbers[i]
   };
-     return sum;
+  return sum
 };
 assignment.sumOfNumbers = sumOfNumbers;
 
