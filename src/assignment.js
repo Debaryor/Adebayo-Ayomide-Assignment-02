@@ -15,13 +15,13 @@ const assignment = {};
 
 function sumOfNumbers(){
   
-let arrayOfNumbers = [1,20,22,14,8,10]
+let arrayOfNumbers = [68, -68, 27, 94, 72, -25, -51, 32, 10, 64, -94, 4, 34, -86, 90, 81, 20,-56,-91,-50]
   let sum = 0;
   for(let i=0; i < arrayOfNumbers.length; i++){
      sum += arrayOfNumbers[i]
-  }
+  };
      return sum;
-}
+};
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -36,7 +36,8 @@ assignment.sumOfNumbers = sumOfNumbers;
 
 function countEvenNumbers() {
 
-  let arrayOfNumbers = [2,3,4,7,8,9,10,24,15,18,33,42,68,91,33,11,98]
+  let arrayOfNumbers = [17, 0, 67, 41, 49, 21, 1, 86, 76, 2, 54, 14, 93, 84, 14, 77, 35, 7, 29, 64]
+  
   let newArray = []
   for(let i = 0; i < arrayOfNumbers.length; i++){
 
