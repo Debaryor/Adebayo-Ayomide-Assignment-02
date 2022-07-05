@@ -15,7 +15,7 @@ const assignment = {};
 
 function sumOfNumbers(){
   
-let arrayOfNumbers = [1,20,22,15,7,10]
+let arrayOfNumbers = [1,20,22,14,8,10]
   let sum = 0;
   for(let i=0; i < arrayOfNumbers.length; i++){
      sum += arrayOfNumbers[i]
